@@ -18,7 +18,7 @@ export class AppComponent implements OnInit{
   title = 'Angular';
 
   ngOnInit(): void {
-    this.switchSite();
+    //this.switchSite();
   }
 
   sites: Site[] = [

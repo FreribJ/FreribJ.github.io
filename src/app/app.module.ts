@@ -24,6 +24,7 @@ import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
     MatSlideToggleModule,
     FormsModule,
     RouterModule.forRoot([
+      {path: '', component: StandardComponent},
       {path: 'standard', component: StandardComponent},
       {path: 'withError', component: WithErrorComponent},
       {path: 'complex', component: ComplexComponent},
