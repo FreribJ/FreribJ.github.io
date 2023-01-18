@@ -1,5 +1,4 @@
 import {Component, OnInit} from '@angular/core';
-import {Observable} from "rxjs";
 import {Router} from '@angular/router';
 
 interface Site {
@@ -27,7 +26,7 @@ export class AppComponent implements OnInit{
     {path: 'withError', name: 'Mit Fehlern'},
     {path: 'complex', name: 'Komplex'},
   ]
-  selectedSite: Site = this.sites[2];
+  selectedSite: Site = this.sites[0];
   switchSite() {
     this.router.navigate([this.selectedSite.path]);
   }
